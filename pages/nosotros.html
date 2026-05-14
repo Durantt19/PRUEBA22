@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | Eva 2 Front end</title>
+    <!-- Bootstrap CSS para estilos responsivos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Estilos personalizados del proyecto -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="nav-container">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid menu">
+                <div class="d-flex justify-content-between w-100 align-items-center">
+                    <a class="navbar-brand text-white mb-0" href="../index.html">Administrador de tareas</a>
+                    <button class="hamburguesa btn btn-outline-light" id="btn-hamburger" type="button" aria-label="Mostrar menú">≡</button>
+                </div>
+                <div class="menu-opciones mt-3" id="menuOpciones">
+                    <a class="btn btn-secondary m-1" href="inicio.html">Inicio</a>
+                    <a class="btn btn-secondary m-1" href="nosotros.html">Nosotros</a>
+                    <a class="btn btn-secondary m-1" href="contacto.html">Contacto</a>
+                    <a class="btn btn-secondary m-1" href="tareas.html">Tareas</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="tarjeta animar">
+                    <h1 class="text-center mb-4">Sobre Nosotros</h1>
+
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <h3 class="h4 mb-3">¿Quiénes Somos?</h3>
+                            <p>Somos estudiantes apasionados por el desarrollo web, creando proyectos educativos que combinan teoría y práctica para aprender tecnologías modernas de frontend.</p>
+
+                            <h3 class="h4 mb-3 mt-4">Nuestra Misión</h3>
+                            <p>Proporcionar herramientas prácticas y ejemplos reales para que otros estudiantes puedan aprender desarrollo web de manera efectiva y divertida.</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3 class="h4 mb-3">El Proyecto</h3>
+                            <p>Este sitio es parte de nuestro aprendizaje en desarrollo frontend. Incluye páginas estáticas, formularios interactivos, gestión de tareas con localStorage y diseño responsive.</p>
+
+                            <h3 class="h4 mb-3 mt-4">Tecnologías Usadas</h3>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>HTML5</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>CSS3 con Bootstrap</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>JavaScript (ES6+)</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>localStorage API</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="text-center">
+                        <h3 class="h4 mb-3">Características del Sitio</h3>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="feature-card h-100 text-center">
+                                    <i class="bi bi-list-check display-4 text-primary mb-3"></i>
+                                    <h5>Administrador de Tareas</h5>
+                                    <p class="mb-0">Crea, edita y organiza tus tareas con filtros y búsqueda.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-card h-100 text-center">
+                                    <i class="bi bi-phone display-4 text-primary mb-3"></i>
+                                    <h5>Diseño Responsive</h5>
+                                    <p class="mb-0">Funciona perfectamente en desktop, tablet y móvil.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-4 pb-2 mt-5">
+        <div class="container">
+            <div class="row text-start">
+                <hr class="border-light">
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Mi Sitio Web</h5>
+                    <p class="small">Proyecto Educativo de FrontEnd. Práctica de Desarrollo Web Moderno.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6 class="fw-bold">Menú de Navegación</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="inicio.html" class="text-white text-decoration-none">Inicio</a></li>
+                        <li><a href="nosotros.html" class="text-white text-decoration-none">Nosotros</a></li>
+                        <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+                        <li><a href="tareas.html" class="text-white text-decoration-none">Tareas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6>Síguenos</h6>
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+            <hr class="border-light">
+            <div class="text-center small">© 2026 - Mi Página Web | Front-End Educativo</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js" defer></script>
+</body>
+</html>
