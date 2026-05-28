@@ -59,6 +59,12 @@ document.addEventListener('click', event => {
 
 document.addEventListener('DOMContentLoaded', () => initTareas());
 
+document.addEventListener("DOMContentLoaded", () => {
+    aplicarTema();
+    cargarComponente("nav-container",    "nav.html");
+    cargarComponente("footer-container", "footer.html");
+});
+
 function initTareas() {
     const lista = document.getElementById('lista-tareas');
     if (!lista) return;
