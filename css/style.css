@@ -101,6 +101,11 @@ body {
   box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
 }
 
+.form-control::placeholder {
+  color: #ffffff;
+  opacity: 0.75;
+}
+
 /* BADGE DE VISITAS */
 .badge-visitas {
   display: inline-flex;

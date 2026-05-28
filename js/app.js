@@ -162,7 +162,7 @@ function initTareas() {
         lista.innerHTML = '';
 
         if (filtradas.length === 0) {
-            lista.innerHTML = '<div class="text-center text-muted py-4">No hay tareas que mostrar.</div>';
+            lista.innerHTML = '<div class="text-center text-white py-4">No hay tareas que mostrar.</div>';
             return;
         }
 
